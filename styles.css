@@ -1,0 +1,1410 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: zeitung-pro-variable, sans-serif;
+    font-style: normal;
+}
+header{
+    height: 80px;
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+
+header div ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.logo{
+    width: 120px;
+    height: 35px;
+}
+
+header a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: max-content;
+}
+
+.lens{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: none;   
+}
+.searcharea{
+    height: 20px;
+    width: 300px;
+    border: none;
+    align-self: center;
+
+}
+
+.search{
+    height: 40px;
+    width: 400px;
+    border: solid;
+    border-color: black;
+    border-radius: 30px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cart{
+    height: 20px;
+    width: 20px;
+}
+
+.login{
+    padding: 10px 20px;
+    background-color: white;
+    color: black ;
+    border: solid;
+    margin-right: 10px;
+}
+.signin{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: solid;
+    border-color: black;
+}
+
+.globe{
+    padding: 10px 10px;
+    background-color: white;
+    color: black ;
+    border: solid;
+    margin-left: 10px;
+}
+
+.main{
+    background-color: white;
+    width: 1250px;
+}
+.second{
+    height: 500px;
+    width: 1250px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-image: url(backnew.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+.intro{
+    height: 120px;
+    width: 300px;
+    background-color: white;
+    padding: 40px;
+    margin-bottom: 120px;
+    margin-left: 100px;   
+}
+
+.main-course{
+    width: inherit;
+    height: 750px;
+}
+
+.course-font-size{
+    font-size: 20px;
+}
+
+.third{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: -50px;
+}
+
+.main-list{
+    display: flex;
+    width: 700px;
+    list-style-type: none;
+    justify-content: space-between;
+    font-size: medium;
+    margin-left: 20px;
+}
+
+main section ul li a{
+    text-decoration: none;
+    color: gray;
+}
+
+.mainbtn{
+    padding: 10px 20px;
+    background-color: white;
+    color: black ;
+    border: solid;
+    margin-right: 10px;
+    font-size: medium;
+}
+
+.python{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: fit-content;
+    border: 1px;
+    border-style: solid;
+    border-color: gray;
+    margin-left: 15px;
+    padding: 20px;
+}
+
+.python-paragraph{
+    width: 820px;
+    height: fit-content;
+    font-size: large;
+}
+
+.name-description{
+    width: 210px;
+    height: fit-content;
+}
+
+.img-python{
+    width: 210px;
+    height: 120px;
+}
+
+.img-python1{
+    width: 210px;
+    height: 120px;
+    border: .5px;
+    border-color: gray;
+    border-style: solid;
+}
+.python-class{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: inherit;
+    height: fit-content;
+    padding-top: 40px;
+}
+
+#python-class{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name{
+    color: gray;
+    font-size: smaller;
+}
+.checked{
+    color: orange;
+}
+
+.stars{
+    font-size: 12px;
+    margin: 2px;
+}
+
+.course{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.learners{
+    width: 1200px;
+    height: fit-content;
+    background-color: rgb(244, 247, 249);
+    padding: 50px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.testimonials{
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: medium;
+    
+}
+
+.testimony{
+    height: 250px;
+    background-color: white;
+    width: 350px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(216, 216, 216);
+    padding: 30px 20px;
+    margin-top: 30px;
+
+}
+
+.name-box1{
+    display: inline-flex;
+    margin-top: 10px;
+    font-size: medium;
+    margin-bottom: 20px;
+}
+
+.name-box2{
+    display: inline-flex;
+    margin-top: 48px;
+    font-size: medium;
+    margin-bottom: 20px;
+}
+
+.name-box3{
+    display: inline-flex;
+    margin-top: 20px;
+    font-size: medium;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.name-circle{
+    display: inline-flex;
+    background-color: black;
+    color: white;
+    height: 12px;
+    width: 12px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: medium;
+}
+
+.testimony-footer{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.testimony-footer-link{
+    text-decoration: none;
+    margin-left: 10px; 
+    margin: 10px;
+}
+
+.python-link{
+    text-decoration: none;
+    color: black;
+    padding-right: 30px;
+}
+
+.students{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 1180px;
+    margin-left: 15px;
+    padding: 20px;
+}
+
+.students-class{
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: inherit;
+    height: fit-content;
+    padding-top: 15px;
+}
+
+.price{
+    display: flex;
+}
+
+.old-price{
+    text-decoration: line-through; 
+    color: gray;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.seller{
+    font-size: smaller;
+    height: fit-content;
+    width: fit-content;
+    padding: 3px 10px;
+    background-color: rgb(239, 239, 143);
+    margin-top: 10px;
+}
+
+.top{
+    padding: 15px;
+}
+
+.categories{
+    height: fit-content;
+    width: 1180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: inherit;
+}
+
+.categories-link{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+
+.categories-image{
+    height: 300px;
+    width: 280px;
+}
+
+
+.top-font{
+    font-size: large;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(244, 247, 249);
+    height: 350px;
+    width: 1200px;
+    margin-left: 15px;
+    padding: 50px 20px;
+}
+
+.features-main{
+    display: inline-flex;
+    padding-top: 10px;
+}
+
+#features-id{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: inherit;
+    height: fit-content;
+}
+
+.features-list{
+    display: inline-flex;
+    flex-direction: column;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: start;
+    list-style: none;
+}
+
+main div div ul li{
+    padding-top: 20px;
+    padding-right: 150px;
+    width: 150px;
+}
+
+main div div ul li h2{
+    font-size: 20px;
+}
+
+main div div ul li h3{
+    font-size: 17px;
+}
+
+main div div ul li a{
+    color: rgb(101, 14, 183);
+    width: 1000px;
+}
+
+main div div ul li p{
+    padding-top: 10px;
+    color: gray;
+}
+
+.featuresbtn{
+    padding: 10px 10px;
+    background-color: rgb(244, 247, 249);
+    color: black ;
+    border: solid;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+main div div button a{
+    text-decoration: none;
+    color: black;
+}
+
+.trusted{
+    height: 250px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.companies{
+    width: 1180px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    padding: 30px;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    height: fit-content;
+    background-color: rgb(244, 247, 249);
+    padding: 50px 20px;
+}
+
+.principal-speech{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    background-color: white;
+    height: 300px;
+    width: 800px;
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px;
+    border-color: rgb(214, 213, 213);
+    border-style: solid;
+}
+
+.principal-paragraph{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 150px;
+    height: inherit;
+    width: 400px;
+    font-size: 18px;
+}
+
+.img-principal{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+}
+
+.img-paragraph{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.principal-link{
+    text-decoration: none; 
+    color: rgb(101, 14, 183); 
+}
+
+.udemy-business{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 100px 100px 0 100px;
+}
+
+.udemy-business-class{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 400px;
+    height: 500px;
+
+}
+
+.udemy-business-img{
+    width: 200px; 
+    height: 50px;
+    padding-top: 10px;
+    
+}
+
+#udemy-business-img{
+    width: 400px; 
+    height: 400px;
+    vertical-align: middle;
+}
+
+.udemy-business-btn{
+    padding-top: 10px;
+}
+
+#udemy-business-btn1{
+    padding: 15px 20px;
+    background-color: black;
+    color: white;
+    border: solid;
+    font-size: medium;
+    text-decoration: none;
+}
+
+.udemy-business-btn2{
+    padding: 15px 12px;
+    margin-left: 5px;
+    color: black;
+    border: solid;
+    font-size: medium;
+    text-decoration: none;
+}
+
+.udemy-business-list{
+    padding: 20px;
+    
+}
+
+main section div ul li{
+    width: 400px;
+    font-size: larger;
+    padding-left: 10px;
+   
+}
+
+.instructor{
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+    padding-bottom: 100px;
+    justify-content: space-evenly;
+    width: 1050px;
+    height: fit-content;
+}
+
+.instructor-img{
+    width: 400px;
+    height: 400px;
+}
+
+.instructor-speech{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.instructor-paragraph{
+    font-size: larger; 
+    width: 400px; 
+    padding-bottom: 40px
+}
+
+#instructor-btn{
+    padding: 15px 20px;
+    background-color: black;
+    color: white;
+    border: solid;
+    font-size: medium;
+    text-decoration: none;   
+}
+
+footer{
+    background-color: rgba(7, 7, 7, 0.954);
+    height: fit-content;
+    width: 1250px;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+.footer-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 50px;
+    width: 700px;
+}
+
+footer div ul li{
+    padding: 5px;
+    list-style-type: none;
+}
+
+footer div ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+
+.footer-english{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: end;
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+    text-decoration: none;
+    padding: 5px 50px 5px 10px;
+}
+
+.footer-logo{
+    width: 100px;
+    height: 40px;
+    padding-bottom: 20px;
+}
+
+.footer-logo-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-left: 50px;
+}
+
+@media only screen and (max-width: 780px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: zeitung-pro-variable, sans-serif;
+        font-style: normal;
+    }
+    header{
+        height: 80px;
+        width: 700px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 15px;
+    }
+    
+    header nav{
+        display: flex;
+        flex-direction: row;
+        width: fit-content;
+    }
+    
+    header div ul{
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+    }
+    
+    .logo{
+        position: absolute;
+        width: 120px;
+        height: 35px;
+        margin-left: 300px;
+    }
+    
+    header a{
+        padding: 0 20px;
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        width: 50px;
+    }
+    
+    .lens{
+        height: 20px;
+        width: 20px;
+        background-color: white;
+        border: none;   
+    }
+
+    #search{
+        position: absolute;
+        margin-left: 300px;
+        margin-top: 10px;
+    }
+
+    .searcharea{
+        height: 0px;
+        width: 0px;
+        border: none;
+        align-self: center;
+        visibility: hidden;
+
+    }
+    
+    .search{
+        height: 0;
+        width: 0;
+        margin-left: 80px;
+    }
+    
+    .cart{
+        height: 20px;
+        width: 20px;
+        margin-left: 200px;
+    }
+
+    .teach{
+        font-size: 0px;
+        visibility: hidden;
+    }
+    
+    .login{
+        font-size: 0;
+        width: 0;
+        height: 0;
+        border: 0;
+        visibility: hidden;
+    }
+    .signin{
+        font-size: 0;
+        width: 0;
+        height: 0;
+        border: 0;
+        visibility: hidden;
+    }
+    
+    .globe{
+        width: fit-content;
+        height: fit-content;
+        visibility: hidden;
+    }
+    
+    .main{
+        background-color: white;
+        width: fit-content;
+    }
+    .second{
+        height: fit-content;
+        width: 730px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        background-image: url(backnew.jpg);
+        background-size: 730px;
+        background-repeat: no-repeat;
+    }
+    
+    .intro{
+        height: fit-content;
+        width: 250px;
+        background-color: white;
+        padding: 40px;
+        margin-top: 40px;
+        margin-left: 50px;   
+    }
+
+    #intro-font{
+        font-size: large;
+    }
+    
+    .main-course{
+        width: inherit;
+        height: 750px;
+    }
+    
+    .course-font-size{
+        font-size: 18px;
+        width: 650px;
+    }
+
+    .third{
+        height: fit-content;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 20px;
+        font-size: small;
+    }
+    
+    .main-list{
+        display: flex;
+        width: 700px;
+        list-style-type: none;
+        justify-content: space-between;
+        font-size: medium;
+        margin-left: 20px;
+    }
+    
+    main section ul li a{
+        text-decoration: none;
+        color: gray;
+    }
+    
+    .mainbtn{
+        padding: 10px 20px;
+        background-color: white;
+        color: black ;
+        border: solid;
+        margin-right: 10px;
+        font-size: small;
+    }
+    
+    .python{
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+        width: 680px;
+        border: 1px;
+        border-style: solid;
+        border-color: gray;
+        margin-left: 15px;
+        padding: 20px;
+    }
+
+    .python-paragraph{
+        width: 650px;
+        height: fit-content;
+        font-size: medium;
+    }
+    
+    .name-description{
+        width: 220px;
+        height: fit-content;
+    }
+    
+    .img-python{
+        width: 210px;
+        height: 120px;
+    }
+    
+    .img-python1{
+        width: 210px;
+        height: 120px;
+        border: .5px;
+        border-color: gray;
+        border-style: solid;
+    }
+    .python-class{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: inherit;
+        height: fit-content;
+        padding-top: 40px;
+    }
+
+    #python-class{
+        padding-top: 30px;
+    }
+    
+    .name{
+        color: gray;
+        font-size: smaller;
+    }
+    .checked{
+        color: orange;
+    }
+    
+    .stars{
+        font-size: 12px;
+        margin: 2px;
+    }
+    
+    .course{
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .learners{
+        width: 700px;
+        height: fit-content;
+        background-color: rgb(244, 247, 249);
+        padding: 50px 20px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 250px;
+    }
+    
+    .testimonials{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        font-size: large;
+        
+    }
+    
+    .testimony{
+        height: fit-content;
+        background-color: white;
+        width: 400px;
+        border: 1px;
+        border-style: solid;
+        border-color: rgb(216, 216, 216);
+        padding: 30px 20px;
+        margin-top: 30px;
+    
+    }
+    
+    .name-box1{
+        display: inline-flex;
+        margin-top: 10px;
+        font-size: medium;
+        margin-bottom: 20px;
+    }
+    
+    .name-box2{
+        display: inline-flex;
+        margin-top: 51px;
+        font-size: medium;
+        margin-bottom: 20px;
+    }
+    
+    .name-box3{
+        display: inline-flex;
+        margin-top: 20px;
+        font-size: medium;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .name-circle{
+        display: inline-flex;
+        background-color: black;
+        color: white;
+        height: 12px;
+        width: 12px;
+        border-radius: 15px;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        margin-right: 10px;
+        font-size: medium;
+    }
+    
+    .testimony-footer{
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: large;
+        color: blueviolet;
+        text-decoration: none;
+    }
+    
+    .testimony-footer-link{
+        text-decoration: none;
+        margin-left: 10px; 
+        margin: 10px;
+    }
+    
+    .python-link{
+        text-decoration: none;
+        color: black;
+        width: 200px;
+    }
+    
+    .students{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        width: 700px;
+        margin-left: 15px;
+        padding: 20px;
+    }
+    
+    .students-class{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: inherit;
+        height: 100px;
+        padding-top: 15px;
+    }
+    
+    .price{
+        display: flex;
+    }
+    
+    .old-price{
+        text-decoration: line-through; 
+        color: gray;
+        font-size: 16px;
+        padding-left: 10px;
+    }
+    
+    .seller{
+        font-size: smaller;
+        height: fit-content;
+        width: fit-content;
+        padding: 3px 10px;
+        background-color: rgb(239, 239, 143);
+        margin-top: 10px;
+    }
+    
+    .top{
+        padding: 15px;
+        margin-top: 150px;
+    }
+    
+    .categories{
+        height: fit-content;
+        width: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: inherit;
+    }
+    
+    .categories-link{
+        text-decoration: none;
+        font-size: medium;
+        color: black;
+    }
+    
+    .categories-image{
+        height: 200px;
+        width: 160px;
+    }
+
+    .top-font{
+        font-size: small;
+    }
+    
+    .features{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(244, 247, 249);
+        height: 350px;
+        width: 700px;
+        margin-left: 15px;
+        padding: 50px 20px;
+    }
+    
+    .features-main{
+        display: inline-flex;
+        padding-top: 10px;
+    }
+    
+    #features-id{
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-between;
+        width: inherit;
+        height: fit-content;
+    }
+    
+    .features-list{
+        display: inline-flex;
+        flex-direction: column;
+        text-decoration: none;
+        justify-content: space-between;
+        align-items: start;
+        list-style: none;
+    }
+    
+    main div div ul li{
+        padding-top: 20px;
+        padding-right: 30px;
+        width: 150px;
+        font-size: small;
+    }
+    
+    main div div ul li h2{
+        font-size: medium;
+    }
+    
+    main div div ul li h3{
+        font-size: 15px;
+    }
+    
+    main div div ul li a{
+        color: rgb(101, 14, 183);
+        width: 500px;
+    }
+    
+    main div div ul li p{
+        padding-top: 10px;
+        color: gray;
+    }
+    
+    .featuresbtn{
+        padding: 10px 10px;
+        background-color: rgb(244, 247, 249);
+        color: black ;
+        border: solid;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    
+    main div div button a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .trusted{
+        height: 250px;
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .companies{
+        width: 680px;
+        display: inline-flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        list-style: none;
+        padding: 30px;
+    }
+    
+    .principal{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 700px;
+        height: fit-content;
+        background-color: rgb(244, 247, 249);
+        padding: 50px 20px;
+    }
+    
+    .principal-speech{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: left;
+        background-color: white;
+        height: 300px;
+        width: 650px;
+        margin-top: 10px;
+        padding: 20px;
+        border: 1px;
+        border-color: rgb(214, 213, 213);
+        border-style: solid;
+    }
+    
+    .principal-paragraph{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: stretch;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 150px;
+        height: inherit;
+        width: 400px;
+        font-size: 18px;
+    }
+    
+    .img-principal{
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+    }
+    
+    .img-paragraph{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .principal-link{
+        text-decoration: none; 
+        color: rgb(101, 14, 183); 
+    }
+    
+    .udemy-business{
+        display: flex;
+        width: 700px;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 100px 0 0 100px;
+    }
+    
+    .udemy-business-class{
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 600px;
+        height: 500px;
+    
+    }
+    
+    .udemy-business-img{
+        width: 250px; 
+        height: 50px;
+        padding-top: 10px;
+        align-self: center;
+        margin-left: 120px;
+        
+    }
+    
+    #udemy-business-img{
+        width: 500px; 
+        height: 600px;
+        vertical-align: middle;
+    }
+    
+    .udemy-business-btn{
+        padding-top: 10px;
+    }
+    
+    #udemy-business-btn1{
+        padding: 15px 50px;
+        background-color: black;
+        color: white;
+        border: solid;
+        font-size: medium;
+        text-decoration: none;
+    }
+    
+    .udemy-business-btn2{
+        padding: 15px 50px;
+        margin-left: 40px;
+        color: black;
+        border: solid;
+        font-size: medium;
+        text-decoration: none;
+    }
+    
+    .udemy-business-list{
+        padding: 20px;
+        
+    }
+    
+    main section div ul li{
+        width: 400px;
+        font-size: larger;
+        padding-left: 10px;
+       
+    }
+    
+    .instructor{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-bottom: 100px;
+        justify-content: space-evenly;
+        width: 700px;
+        height: fit-content;
+    }
+    
+    .instructor-img{
+        width: 450px;
+        height: 400px;
+        margin-left: 50px;
+    }
+    
+    .instructor-speech{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+    
+    }
+    
+    .instructor-paragraph{
+        font-size: larger; 
+        width: 600px; 
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    
+    #instructor-btn{
+        padding: 15px 20px;
+        background-color: black;
+        color: white;
+        border: solid;
+        font-size: medium;
+        text-decoration: none;   
+    }
+    
+    footer{
+        background-color: rgba(7, 7, 7, 0.954);
+        height: fit-content;
+        width: inherit;
+    }
+    
+    .footer-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 20px;
+        padding-right: 30px;
+    }
+    
+    .footer-link{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 50px;
+        width: 700px;
+    }
+    
+    footer div ul li{
+        padding: 5px;
+        list-style-type: none;
+    }
+    
+    footer div ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: small;
+    }
+    
+    .footer-english{
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: end;
+        border: 1px;
+        border-color: white;
+        border-style: solid;
+        text-decoration: none;
+        padding: 5px 50px 5px 10px;
+    }
+    
+    .footer-logo{
+        width: 100px;
+        height: 40px;
+        padding-bottom: 20px;
+    }
+    
+    .footer-logo-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 50px;
+        padding-right: 30px;
+        padding-left: 50px;
+    }
+}
